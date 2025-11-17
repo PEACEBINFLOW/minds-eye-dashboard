@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-mind-bg text-mind-text antialiased;
+}
+
+a {
+  @apply text-mind-accent hover:underline;
+}

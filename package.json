@@ -1,0 +1,28 @@
+{
+  "name": "minds-eye-dashboard",
+  "version": "0.1.0",
+  "description": "React + Next.js dashboard for the Google-native Mind's Eye OS. Visualizes timelines, events, LAW-T segments, search results, and weekly snapshots.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "^3.4.7",
+    "postcss": "^8.4.39",
+    "autoprefixer": "^10.4.20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "14.2.5"
+  }
+}
